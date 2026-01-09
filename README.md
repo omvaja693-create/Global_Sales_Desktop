@@ -1,77 +1,71 @@
-# 📊 Global Sales Data Dashboard (Power BI)
+# 🌍 Global Sales Data Dashboard | Power BI
 
-Welcome to the **Global Sales Data Dashboard** project built using **Microsoft Power BI**.  
-This dashboard provides a clear view of **sales trends, profit distribution, shipping performance, and customer segments** to support data-driven business decisions.
+This project showcases an interactive **Global Sales Dashboard** developed using **Microsoft Power BI** to analyze business performance across **years, regions, shipping modes, and customer segments**.
+
+The dashboard helps stakeholders quickly identify trends, high-performing regions, and logistics efficiency.
+
+---
+
+## 🖥️ Dashboard Preview
+
+![Global Sales Dashboard](Global%20Sales%20Destop.PNG)
 
 ---
 
 ## 🎯 Project Objectives
 
-- Analyze **year-wise sales growth**
-- Track **overall profit and discount impact**
-- Compare **profit by region and shipping mode**
-- Understand **customer segments** (Consumer, Corporate, Home Office)
-- Provide both **Desktop and Mobile responsive views**
+- Track **year-wise sales growth**
+- Analyze **profit distribution by region**
+- Evaluate **shipping mode performance**
+- Monitor **key business KPIs**
+- Understand **customer segment behavior**
 
 ---
 
-## 🖥️ Desktop Dashboard View
+## 📊 Key KPIs
 
-![Desktop Dashboard](Global%20Sales%20Destop.PNG)
-
-**Key Insights from Desktop View:**
-- 📈 Continuous growth in sales from 2011 to 2014  
-- 💰 Total Profit: **1.47M**  
-- 🚚 Highest profit from **Standard Class shipping**  
-- 🌍 Central region contributes the most profit
-
----
-
-## 📱 Mobile Dashboard View
-
-![Mobile Dashboard](Global%20Sales%20mobile%20view.PNG)
-
-**Mobile Optimized Features:**
-- Clean KPI cards for quick business checks
-- Sales trend chart for fast comparison
-- Easy segment filtering on small screens
+- 📌 **Total Discount:** 7.33K  
+- 📌 **Total Quantity Sold:** 178K  
+- 📌 **Total Profit:** 1.47M  
+- 📌 **Total Shipping Cost:** 1.35M  
+- 📌 **Return Count:** 1,173  
+- 📌 **Postal Codes Covered:** 9,994  
 
 ---
 
-## 🧩 KPIs Tracked
+## 📈 Visual Insights
 
-- ✅ Total Sales  
-- ✅ Total Profit  
-- ✅ Total Quantity Sold  
-- ✅ Total Discount  
-- ✅ Shipping Cost  
-- ✅ Return Count  
-- ✅ Postal Code Coverage  
+- 📉 **Sales Trend by Year (2011–2014)**
+- 🌏 **Profit by Region (Asia Regions)**
+- 🚚 **Profit by Shipping Mode**
+- 👥 **Customer Segment Filters**
+- 📊 Interactive slicers for deep analysis
 
 ---
 
-## 🛠 Tools & Technologies Used
+## 🛠 Tools & Technologies
 
-- **Microsoft Power BI Desktop**
-- Data Modeling & DAX Measures
-- Interactive Visualizations
-- Responsive Mobile Layout Design
+- Microsoft Power BI Desktop
+- Data Cleaning & Transformation
+- DAX Calculations
+- Interactive Dashboard Design
+- KPI & Trend Visualizations
 
 ---
 
-## 📂 Project File
+## 📂 Project Files
 
-The Power BI dashboard file is available in this repository:
+Power BI report available in this repository:
 
 - 📄 `Global sales data dash baord.pbix`
 
-You can download and open it using **Power BI Desktop** to explore the full interactive dashboard.
+Download and open using **Power BI Desktop** to explore full interactivity.
 
 ---
 
-## 🙌 Author
+## 👨‍💻 Author
 
 **Om Vaja**  
 Aspiring Data Analyst | Power BI Developer | Data Visualization Enthusiast
 
-If you like this project, don’t forget to ⭐ star the repository!
+⭐ If you like this project, consider starring the repository!
