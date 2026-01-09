@@ -1,61 +1,64 @@
-Here is your updated `README.md` file with relevant emojis added to make it look more professional and engaging for your GitHub profile!
-
----
-
 # 📊 Global Sales Data Dashboard
 
-## 📝 Project Overview
+![Power BI](https://img.shields.io/badge/Data_Visualization-Power_BI-yellow) 
+![Data Modeling](https://img.shields.io/badge/Data_Modeling-Star_Schema-blue)
+![DAX](https://img.shields.io/badge/Analysis-DAX-orange)
 
-This project is a comprehensive **Power BI Dashboard** designed to analyze and visualize global sales performance. The dashboard provides deep insights into sales trends, profitability, and customer behavior across various regions and product categories. It serves as a data-driven tool for stakeholders to monitor key performance indicators (KPIs) and make informed business decisions. 🚀
-
-## ✨ Features
-
-* **📈 Key KPI Tracking**: Visualizes critical metrics such as Total Sales, Total Profit, and Order Volume at a glance.
-* **🌍 Geographic Analysis**: Interactive maps showing sales distribution across different countries and regions.
-* **⏳ Temporal Trends**: Time-series analysis to identify seasonal patterns and growth trends in sales and profit.
-* **📦 Product Performance**: Detailed breakdown of sales and profit margins by product category and sub-category.
-* **🚛 Shipping & Logistics**: Insights into shipping costs and delivery times to optimize supply chain efficiency.
-* **🔍 Interactive Filtering**: Users can slice and dice data by year, region, segment, and category for personalized views.
-
-## 🏗️ Data Model & Structure
-
-The dashboard is built on a robust data model utilizing a **Star Schema** for optimal performance:
-
-* **📑 Fact Table**: Contains core sales transaction data, including revenue, profit, quantity, and discount details.
-* **🗂️ Dimension Tables**:
-* **📅 Calendar/Date Table**: Enables advanced Time Intelligence calculations (YTD, YoY growth).
-* **🏷️ Product Table**: Contains product attributes like names, categories, and sub-categories.
-* **🗺️ Geography Table**: Details on regions, countries, states, and cities.
-* **👤 Customer Table**: Segment information (Consumer, Corporate, Home Office).
-
-
-
-## 🔢 DAX Measures
-
-Advanced **DAX (Data Analysis Expressions)** measures were implemented to provide dynamic calculations, including:
-
-* 💰 Total Sales and Total Profit.
-* 📊 Profit Margin percentages.
-* 📈 Year-over-Year (YoY) Sales Growth.
-* 📉 Moving averages for sales trend smoothing.
-
-## 🛠️ Technology Stack
-
-* **💻 Tool**: Microsoft Power BI Desktop.
-* **📂 Data Source**: Global Sales CSV/Excel datasets.
-* **⚙️ Modeling**: Power Query (M Language) for ETL processes and DAX for analytical calculations.
-
-## 🚀 How to Use
-
-1. ✅ Ensure you have **Power BI Desktop** installed.
-2. 📥 Download the `Global sales data dash baord.pbix` file from this repository.
-3. 📂 Open the file to interact with the visualizations and explore the data model.
+## 🌟 Project Overview
+Welcome to the **Global Sales Data Dashboard**! This project is a high-performance analytical tool built to help stakeholders track business health across the globe. By turning raw sales data into interactive visuals, this dashboard identifies growth trends, monitors profitability, and uncovers customer behavior patterns.
 
 ---
 
-### 👨‍💻 Author
+## 📸 Dashboard Preview
+> **Note:** Below are the visual representations of the dashboard.
 
-**Om Vaja**
+### 📈 Executive Summary View
+![Dashboard Screenshot 1](INSERT_LINK_TO_IMAGE_1_HERE)
+*Figure 1: High-level KPIs and Geographic distribution.*
 
-* 🎓 Data Analyst Portfolio Project.
-* 🎯 Focus: Data Modeling, Power BI, and Data Visualization.
+### 🔍 Deep Dive Analysis
+![Dashboard Screenshot 2](INSERT_LINK_TO_IMAGE_2_HERE)
+*Figure 2: Product performance and Shipping logistics analysis.*
+
+---
+
+## 🚀 Key Features
+* **🎯 KPI Tracking:** Real-time visibility into **Total Sales**, **Total Profit**, and **Order Volume**.
+* **🌍 Geographic Insights:** Interactive map visuals to explore sales density by country and region.
+* **📅 Time Intelligence:** Year-over-Year (YoY) growth and seasonal trend analysis.
+* **📦 Product & Category Analytics:** Breakdown of top-performing products and sub-categories.
+* **🚚 Logistics Optimization:** Analysis of shipping costs and delivery timelines.
+* **⚡ Dynamic Filtering:** Slicers for Year, Segment, and Region for a personalized data experience.
+
+---
+
+## 🛠️ Technical Stack & Data Model
+This project utilizes a **Star Schema** to ensure fast report performance and scalable data management.
+
+* **Fact Table:** Sales Transactions (Revenue, Profit, Quantity, Discounts).
+* **Dimension Tables:** * 📅 **Calendar:** Custom Date table for Time Intelligence.
+    * 👥 **Customers:** Segmented by Consumer, Corporate, and Home Office.
+    * 🗺️ **Geography:** Regional hierarchy (Country, State, City).
+    * 🍎 **Products:** Detailed categorization.
+
+### 🧠 Advanced DAX Measures
+Some of the complex calculations used include:
+* **YoY Sales Growth:** `(Current Sales - Previous Year Sales) / Previous Year Sales`
+* **Profit Margin %:** `SUM(Profit) / SUM(Sales)`
+* **Moving Averages:** To smooth out seasonal fluctuations in sales trends.
+
+---
+
+## 📂 How to View the Project
+1. Clone this repository to your local machine.
+2. Ensure you have **Microsoft Power BI Desktop** installed.
+3. Open the file: `Global sales data dash baord.pbix`.
+4. Interact with the filters to explore the data!
+
+---
+
+## 👤 Author
+**Om Vaja** *Data Analyst & Coding Enthusiast* 📍 Focused on Data Modeling, Python, and AI/ML.
+
+---
+⭐ *If you find this project helpful, feel free to star the repository!*
