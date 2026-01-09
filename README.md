@@ -1,64 +1,77 @@
-# 📊 Global Sales Data Dashboard
+# 📊 Global Sales Data Dashboard (Power BI)
 
-![Power BI](https://img.shields.io/badge/Data_Visualization-Power_BI-yellow) 
-![Data Modeling](https://img.shields.io/badge/Data_Modeling-Star_Schema-blue)
-![DAX](https://img.shields.io/badge/Analysis-DAX-orange)
-
-## 🌟 Project Overview
-Welcome to the **Global Sales Data Dashboard**! This project is a high-performance analytical tool built to help stakeholders track business health across the globe. By turning raw sales data into interactive visuals, this dashboard identifies growth trends, monitors profitability, and uncovers customer behavior patterns.
+Welcome to the **Global Sales Data Dashboard** project built using **Microsoft Power BI**.  
+This dashboard provides a clear view of **sales trends, profit distribution, shipping performance, and customer segments** to support data-driven business decisions.
 
 ---
 
-## 📸 Dashboard Preview
-> **Note:** Below are the visual representations of the dashboard.
+## 🎯 Project Objectives
 
-### 📈 Executive Summary View
-![Dashboard Screenshot 1](dashboard1.png)
-*Figure 1: High-level KPIs and Geographic distribution.*
-
-### 🔍 Deep Dive Analysis
-![Dashboard Screenshot 2](dashboard2.png)
-*Figure 2: Product performance and Shipping logistics analysis.*
+- Analyze **year-wise sales growth**
+- Track **overall profit and discount impact**
+- Compare **profit by region and shipping mode**
+- Understand **customer segments** (Consumer, Corporate, Home Office)
+- Provide both **Desktop and Mobile responsive views**
 
 ---
 
-## 🚀 Key Features
-* **🎯 KPI Tracking:** Real-time visibility into **Total Sales**, **Total Profit**, and **Order Volume**.
-* **🌍 Geographic Insights:** Interactive map visuals to explore sales density by country and region.
-* **📅 Time Intelligence:** Year-over-Year (YoY) growth and seasonal trend analysis.
-* **📦 Product & Category Analytics:** Breakdown of top-performing products and sub-categories.
-* **🚚 Logistics Optimization:** Analysis of shipping costs and delivery timelines.
-* **⚡ Dynamic Filtering:** Slicers for Year, Segment, and Region for a personalized data experience.
+## 🖥️ Desktop Dashboard View
+
+![Desktop Dashboard](Global%20Sales%20Destop.PNG)
+
+**Key Insights from Desktop View:**
+- 📈 Continuous growth in sales from 2011 to 2014  
+- 💰 Total Profit: **1.47M**  
+- 🚚 Highest profit from **Standard Class shipping**  
+- 🌍 Central region contributes the most profit
 
 ---
 
-## 🛠️ Technical Stack & Data Model
-This project utilizes a **Star Schema** to ensure fast report performance and scalable data management.
+## 📱 Mobile Dashboard View
 
-* **Fact Table:** Sales Transactions (Revenue, Profit, Quantity, Discounts).
-* **Dimension Tables:** * 📅 **Calendar:** Custom Date table for Time Intelligence.
-    * 👥 **Customers:** Segmented by Consumer, Corporate, and Home Office.
-    * 🗺️ **Geography:** Regional hierarchy (Country, State, City).
-    * 🍎 **Products:** Detailed categorization.
+![Mobile Dashboard](Global%20Sales%20mobile%20view.PNG)
 
-### 🧠 Advanced DAX Measures
-Some of the complex calculations used include:
-* **YoY Sales Growth:** `(Current Sales - Previous Year Sales) / Previous Year Sales`
-* **Profit Margin %:** `SUM(Profit) / SUM(Sales)`
-* **Moving Averages:** To smooth out seasonal fluctuations in sales trends.
+**Mobile Optimized Features:**
+- Clean KPI cards for quick business checks
+- Sales trend chart for fast comparison
+- Easy segment filtering on small screens
 
 ---
 
-## 📂 How to View the Project
-1. Clone this repository to your local machine.
-2. Ensure you have **Microsoft Power BI Desktop** installed.
-3. Open the file: `Global sales data dash baord.pbix`.
-4. Interact with the filters to explore the data!
+## 🧩 KPIs Tracked
+
+- ✅ Total Sales  
+- ✅ Total Profit  
+- ✅ Total Quantity Sold  
+- ✅ Total Discount  
+- ✅ Shipping Cost  
+- ✅ Return Count  
+- ✅ Postal Code Coverage  
 
 ---
 
-## 👤 Author
-**Om Vaja** *Data Analyst & Coding Enthusiast* 📍 Focused on Data Modeling, Python, and AI/ML.
+## 🛠 Tools & Technologies Used
+
+- **Microsoft Power BI Desktop**
+- Data Modeling & DAX Measures
+- Interactive Visualizations
+- Responsive Mobile Layout Design
 
 ---
-⭐ *If you find this project helpful, feel free to star the repository!*
+
+## 📂 Project File
+
+The Power BI dashboard file is available in this repository:
+
+- 📄 `Global sales data dash baord.pbix`
+
+You can download and open it using **Power BI Desktop** to explore the full interactive dashboard.
+
+---
+
+## 🙌 Author
+
+**Om Vaja**  
+Aspiring Data Analyst | Power BI Developer | Data Visualization Enthusiast
+
+If you like this project, don’t forget to ⭐ star the repository!
