@@ -13,11 +13,11 @@ Welcome to the **Global Sales Data Dashboard**! This project is a high-performan
 > **Note:** Below are the visual representations of the dashboard.
 
 ### 📈 Executive Summary View
-![Dashboard Screenshot 1](INSERT_LINK_TO_IMAGE_1_HERE)
+![Dashboard Screenshot 1](dashboard1.png)
 *Figure 1: High-level KPIs and Geographic distribution.*
 
 ### 🔍 Deep Dive Analysis
-![Dashboard Screenshot 2](INSERT_LINK_TO_IMAGE_2_HERE)
+![Dashboard Screenshot 2](dashboard2.png)
 *Figure 2: Product performance and Shipping logistics analysis.*
 
 ---
